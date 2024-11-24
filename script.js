@@ -10,6 +10,21 @@ document.getElementById("scrollup").addEventListener('click',
     });
 
 
+    function showmenu(){
+      const sidebar = document.querySelector('.sidebar')
+      sidebar.style.display = 'flex'
+    };
+
+
+    function closemenu(){
+      const sidebar = document.querySelector('.sidebar')
+      sidebar.style.display = 'none'
+    };
+
+
+
+
+
       function showlist1(){
         const smallchops = document.querySelector('.smallchops');
         smallchops.style.display = 'flex';
