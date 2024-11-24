@@ -1,4 +1,42 @@
+const swiper = new Swiper('.slide-wrapper', {
+  loop: true,
+  grabCursor: true,
+  spaceBetween: true,
 
+  // If we need pagination
+  pagination: {
+    el: '.swiper-pagination',
+    clickable: true,
+    dynamicBullets: true
+  },
+  
+  // Navigation arrows
+  navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+  },
+
+  // Responsive breakpoints
+  breakpoints: {
+    640: {
+      slidesPerView: 1,
+      spaceBetween: 5
+    },
+    768: {
+      slidesPerView: 2,
+      spaceBetween: 10
+    },
+    1024: {
+      slidesPerView: 3,
+      spaceBetween: 15
+    },
+    1200: {
+      slidesPerView: 4,
+      spaceBetween: 20
+    }
+  }
+
+});
 
 
 document.getElementById("scrollup").addEventListener('click',

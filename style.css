@@ -446,8 +446,8 @@
         margin: 20px 0px;
     }
 
-    .pastry h2{
-        font-size: 20px;
+    .pastry h1{
+        font-size: 38px;
         color: white;
         font-weight: 700;
         font-family: 'Poppins';
@@ -685,11 +685,11 @@
         }
 
         .testimonialcards{
-            width: 80%;
+            /* width: 100%; */
             display: flex;
             flex-direction: row;
             margin: auto;
-            gap: 10px;
+            gap: 5px;
             justify-content: center;
             align-items: center;
         }
@@ -705,15 +705,32 @@
             
             .hero5 h4{
             font-family: 'Roboto';
-            font-size: 16px;
+            font-size: 20px;
             font-weight: 500;
             line-height: 20px;
             text-align: center;
             margin: auto;
             padding: 1rem 0;
             color:#a54e17;
-            margin-bottom: 2rem;
+            margin-bottom: 0rem;
             }
+
+            .slide-wrapper{
+              overflow: hidden;
+              max-width: 1600px;
+              margin: 0 70px 50px;
+            }
+            
+            
+            .slide-wrapper .swiper-slide-button{
+              color: rgb(223, 86, 17);
+              margin-top: -50px;
+              transition: 0.2s ease;
+            }
+            
+            .slide-wrapper .swiper-slide-button:hover{
+              color: rgb(160, 16, 16);
+            }  
         .testimonial {
             /* width: 60%; */
             margin: auto;
