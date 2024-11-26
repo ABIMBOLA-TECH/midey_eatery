@@ -39,6 +39,27 @@ const swiper = new Swiper('.slide-wrapper', {
 });
 
 
+document.getElementById('scrollup').addEventListener('click',
+  function() {
+    window.scrollTo({
+      top: 0,
+      behavior:'smooth'
+    });
+  });
+
+
+
+   
+
+
+
+
+  
+
+
+  
+
+
 document.getElementById("scrollup").addEventListener('click',
   function() {
       window.scrollTo({
